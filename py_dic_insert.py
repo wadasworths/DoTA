@@ -8,7 +8,7 @@ import pymysql
   
 def InsertData(TableName,dic):   
 	try: 
-		db = pymysql.connect('localhost','root','******','testdb')
+		db = pymysql.connect('localhost','root','3660033','dota')
 		cursor = db.cursor() 
 		COLstr=''   #列的字段  
 		ROWstr=''  #行字段  
